@@ -1,4 +1,4 @@
-# github-theme
+# blvckleg's whine-red Github theme
 
 # Prerequisites
 
