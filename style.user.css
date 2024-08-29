@@ -1,12 +1,9 @@
 /* ==UserStyle==
-@name Github Dracula
-@namespace https://github.com/Dracula
-@homepageURL https://github.com/Dracula/github
-@supportURL https://github.com/Dracula/github/issues
-@version 1.1.6
-@updateURL https://github.com/Dracula/github/raw/master/style.user.css
-@description  🧛🏻‍♂️ Dark theme for Github
-@author Umbreon
+@name blvckleg whine-red
+@namespace https://github.com/sanriodev
+@homepageURL https://blvckleg.dev
+@version 1.0.0
+@description blvcklegs whine-red github theme
 @license MIT
 
 @preprocessor stylus
@@ -21,11 +18,12 @@
 ==/UserStyle== */
 /* Styles 
 Rounded input
-background-color: draculaW-blackSecondary
 
 */
 @-moz-document domain("github.com") {
-  /* Replace default github colors. Need the attributes here to match the specificity of the default values. */
+  /* Replace default github colors. Need the attributes here to match the specificity of the default values. 
+  This theme was inspired by dracula, changed color palette to my likings
+  */
   [data-color-mode][data-dark-theme],
   html[data-color-mode][data-dark-theme],
   html[data-color-mode][data-dark-theme] body {
@@ -97,7 +95,7 @@ background-color: draculaW-blackSecondary
     --color-codemirror-syntax-keyword: #ff79c6;
     --color-codemirror-syntax-storage: #ff79c6;
     --color-codemirror-syntax-string: #f1fa8c;
-    --color-codemirror-syntax-support: #b30059;
+    --color-codemirror-syntax-support: #ff3399;
     --color-codemirror-syntax-variable: #f8f8f2;
     --color-checks-bg: #282a36;
     --color-checks-run-border-width: 1px;
@@ -170,7 +168,7 @@ background-color: draculaW-blackSecondary
     --color-checks-ansi-blue-bright: #d6acff;
     --color-checks-ansi-magenta: #ff79c6;
     --color-checks-ansi-magenta-bright: #ff92df;
-    --color-checks-ansi-cyan: #b30059;
+    --color-checks-ansi-cyan: #ff3399;
     --color-checks-ansi-cyan-bright: #a4ffff;
     --color-project-header-bg: #282a36;
     --color-project-sidebar-bg: #282a36;
@@ -325,7 +323,7 @@ background-color: draculaW-blackSecondary
     --color-neutral-emphasis: #6e7681;
     --color-neutral-muted: rgba(110, 118, 129, 0.4);
     --color-neutral-subtle: rgba(110, 118, 129, 0.1);
-    --color-accent-fg: #b30059;
+    --color-accent-fg: #ff3399;
     --color-accent-emphasis: #ff3399;
     --color-accent-muted: rgba(56, 139, 253, 0.4);
     --color-accent-subtle: rgba(56, 139, 253, 0.15);
