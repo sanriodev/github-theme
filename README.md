@@ -1,4 +1,4 @@
-# blvckleg's whine-red Github theme
+# my pastel github theme (dark)
 
 # Prerequisites
 
